@@ -1,7 +1,5 @@
 # second-brain
 
-[![tests](https://github.com/Nishanth-G-Palaniswami/second-brain/actions/workflows/test.yml/badge.svg)](https://github.com/Nishanth-G-Palaniswami/second-brain/actions/workflows/test.yml)
-
 My personal AI second brain. I run this daily over my own Gmail, Slack, Calendar, and GitHub: drafting replies, surfacing meeting context, and maintaining a living knowledge vault on top of [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Open-sourced as a starter kit so you can fork and run your own.
 
 > Inspired by [coleam00/second-brain-starter](https://github.com/coleam00/second-brain-starter); rewritten and extended with sanitized versions of skills, integrations, hooks, and a heartbeat that I built and use myself.
@@ -52,7 +50,7 @@ The vault (the markdown files at `${SECOND_BRAIN_VAULT}`) is the source of truth
 ### 1. Clone
 
 ```bash
-git clone https://github.com/Nishanth-G-Palaniswami/second-brain.git
+git clone https://github.com/vineesha035/second-brain.git
 cd second-brain
 ```
 
@@ -146,10 +144,6 @@ Things in my personal copy that haven't shipped here yet, coming in v2:
 - Slack/Discord chat adapter for two-way conversation
 - Windows scheduler / cron / launchd installer scripts for the heartbeat
 - Voice-matched humanizer utilities (`batch_humanize.py`, `merge_humanized.py`, etc.)
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md). Short version: PRs welcome, but no real names, paths, or vault content in the diff.
 
 ## License
 
